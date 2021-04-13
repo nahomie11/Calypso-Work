@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@font-face {
+    font-family: 'Alegreya', serif ;
+    font-style: normal;
+    font-weight: 400;}
+
 .demo{
     color:rgb(47, 47, 47)}
 
