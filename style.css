@@ -4,7 +4,7 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1 45px 1 100px;}
+    grid-template-rows: 1 85px 1 200px;}
 
 header.demo{
     background-color: rgb(249, 249, 230);
