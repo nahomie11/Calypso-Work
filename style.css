@@ -20,10 +20,8 @@ header.demo{
     padding-top: 25px;}
 
 img{
-    border-color:  rgb(227, 200, 241);
-    border: 20px;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 25%;
+    margin-right: 75%;
     grid-column-start: 1;
     grid-column-end: 2;
     width:200px;}
