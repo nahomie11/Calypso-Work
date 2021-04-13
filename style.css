@@ -28,6 +28,11 @@ img{
     grid-column-end: 2;
     width:200px;}
 
+.demo1{
+    background-color: rgb(227, 200, 241);
+    grid-column-start: 1;
+    grid-column-end: 2;}
+
 .demo2{
     background-color:rgb(186, 209, 133);
     grid-column-start: 2;
