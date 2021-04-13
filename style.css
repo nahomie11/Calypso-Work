@@ -19,7 +19,7 @@ header.demo{
     text-align: center;;
     padding-top: 25px;}
 
-img.demo1{
+img{
     border-color:  rgb(227, 200, 241);
     border: 20px;
     grid-column-start: 1;
