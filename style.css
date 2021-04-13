@@ -27,7 +27,7 @@ img{
     grid-column-end: 2;
     width:200px;}
 
-div.demo1{
+.demo1{
     background-color: rgb(227, 200, 241);
     grid-column-start: 1;
     grid-column-end: 2;
@@ -39,3 +39,19 @@ div.demo1{
     grid-column-end: 3;
     text-align: center;
     padding-top: 10px;}
+
+.fab{
+    align-items: center;
+    padding-bottom: 10px}
+    
+a:link{
+    text-decoration: none;
+    color:rgb(249, 249, 230);}
+
+a:visited{
+    text-decoration: none;
+    color:rosybrown;}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(112, 112, 112);}
