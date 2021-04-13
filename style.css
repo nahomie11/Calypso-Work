@@ -1,0 +1,24 @@
+.demo{
+    color:rgb(47, 47, 47)}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1 45px 1 100px;}
+
+header.demo{
+    background-color: rgb(249, 249, 230);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;;
+    padding-top: 25px;}
+
+.demo1{
+    background-color: rgb(227, 200, 241);
+    grid-column-start: 1;
+    grid-column-end: 2;}
+
+.demo2{
+    background-color:rgb(186, 209, 133);
+    grid-column-start: 2;
+    grid-column-end: 3;}
