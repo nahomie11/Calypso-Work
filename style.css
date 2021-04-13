@@ -20,8 +20,7 @@ header.demo{
     padding-top: 25px;}
 
 img{
-    margin-left: 20px;
-    margin-right: 40px;
+    float: left;
     padding-top: 10px;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -30,8 +29,7 @@ img{
 .demo1{
     background-color: rgb(227, 200, 241);
     grid-column-start: 1;
-    grid-column-end: 2;
-    text-align:center;}
+    grid-column-end: 2;}
 
 .demo2{
     background-color:rgb(186, 209, 133);
@@ -43,7 +41,7 @@ img{
 .fab{
     align-items: center;
     padding-bottom: 10px}
-    
+
 a:link{
     text-decoration: none;
     color:rgb(249, 249, 230);}
