@@ -24,7 +24,7 @@ img.demo1{
     border: 20px;
     grid-column-start: 1;
     grid-column-end: 2;
-    width:150px;}
+    width:90px;}
 
 .demo2{
     background-color:rgb(186, 209, 133);
