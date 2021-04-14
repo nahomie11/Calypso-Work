@@ -21,15 +21,13 @@ header.demo{
     font-family: 'Segoe Script';
     padding-top: 10px;}
 
-img{
-    margin-left: auto;
-    margin-right: auto;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-column: 1/3;
-    grid-row: 2/3 ;
-    width:450px;}
+.column{
+    float: left;
+    width: 450px;}
 
+.row{
+    display: flex;
+    flex-wrap: wrap;}
 .demo1{
     background-color: rgb(227, 200, 241);
     grid-column-start: 1;
