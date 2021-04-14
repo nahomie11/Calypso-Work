@@ -22,7 +22,8 @@ header.demo{
     padding-top: 10px;}
 
 img{
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-column: 1/3;
@@ -39,7 +40,7 @@ img{
     grid-column-start: 3;
     grid-column-end: 5;
     font-family: 'Alegreya', serif ;
-    font-size: medium;
+    font-size: 48px;
     font-style: normal;
     text-align: center;
     padding-top: 10px;}
