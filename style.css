@@ -21,13 +21,6 @@ header.demo{
     font-family: 'Segoe Script';
     padding-top: 10px;}
 
-.column{
-    float: left;
-    width: 450px;}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;}
 .demo1{
     background-color: rgb(227, 200, 241);
     grid-column-start: 1;
