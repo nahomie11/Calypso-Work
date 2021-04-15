@@ -36,20 +36,3 @@ header.demo{
     font-style: normal;
     text-align: center;
     padding-top: 10px;}
-
-
-.footer{
-    font-family: 'Alegreya', serif;
-    font-size: 12px;}
-
-a:link{
-    text-decoration: none;
-    color:rgb(249, 249, 230);}
-
-a:visited{
-    text-decoration: none;
-    color:rosybrown;}
-
-a:hover{
-    text-decoration: underline;
-    color: rgb(112, 112, 112);}
