@@ -24,7 +24,8 @@ header.demo{
 .demo1{
     background-color: rgb(227, 200, 241);
     grid-column-start: 1;
-    grid-column-end: 3;}
+    grid-column-end: 3;
+    grid-row: span;}
 
 .demo2{
     background-color:rgb(186, 209, 133);
@@ -43,7 +44,7 @@ header.demo{
 .footer{
     font-family: 'Alegreya', serif;
     font-size: 12px;}
-    
+
 a:link{
     text-decoration: none;
     color:rgb(249, 249, 230);}
