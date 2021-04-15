@@ -30,6 +30,8 @@ header.demo{
     background-color:rgb(186, 209, 133);
     grid-column-start: 3;
     grid-column-end: 5;
+    grid-row: 2/3;
+    grid-column: 3/5;
     font-family: 'Alegreya', serif ;
     font-size: 35px;
     font-style: normal;
