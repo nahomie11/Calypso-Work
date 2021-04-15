@@ -31,7 +31,7 @@ header.demo{
     grid-column-start: 3;
     grid-column-end: 5;
     font-family: 'Alegreya', serif ;
-    font-size: 48px;
+    font-size: 35px;
     font-style: normal;
     text-align: center;
     padding-top: 10px;}
@@ -40,6 +40,10 @@ header.demo{
     align-items: center;
     padding-bottom: 10px}
 
+.footer{
+    font-family: 'Alegreya', serif;
+    font-size: 12px;}
+    
 a:link{
     text-decoration: none;
     color:rgb(249, 249, 230);}
