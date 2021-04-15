@@ -10,7 +10,7 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1 85px 2 200px;}
+    grid-template-rows: 1 85px 1 200px;}
 
 header.demo{
     background-color: rgb(249, 249, 230);
@@ -24,8 +24,7 @@ header.demo{
 .demo1{
     background-color: rgb(227, 200, 241);
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row:2/3;}
+    grid-column-end: 3;}
 
 .demo2{
     background-color:rgb(186, 209, 133);
@@ -34,5 +33,4 @@ header.demo{
     font-family: 'Alegreya', serif ;
     font-size: 35px;
     font-style: normal;
-    text-align: center;
-    padding-top: 10px;}
+    text-align: center;}
