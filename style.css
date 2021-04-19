@@ -15,7 +15,8 @@
 
 header.demo{
     background-color: rgb(249, 249, 230);
-    grid-area: 1/ 1/ 2/ 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
     text-align: center;
     font-size:50px;
     font-family: 'Segoe Script';
