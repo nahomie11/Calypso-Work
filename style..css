@@ -3,7 +3,11 @@
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.google.com/share?selection.family=Alegreya)} 
-
+    style{
+    box-sizing: border-box}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
 .demo{
         color:rgb(47, 47, 47)}
 
@@ -18,11 +22,9 @@ text{
     font-size:20px;
     font-family: 'Segoe Script';}
 
-    * {box-sizing:border-box}
-
     /* Slideshow container */
     .slideshow-container {
-      max-width: 750px;
+      max-width: 720px;
       position: center;
       margin: auto;
     }
