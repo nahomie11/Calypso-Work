@@ -4,7 +4,6 @@
     font-weight: 400;
     src: url(https://fonts.google.com/share?selection.family=Alegreya)} 
 
-
 .demo{
         color:rgb(47, 47, 47)}
 
@@ -77,6 +76,8 @@ header.demo {
     grid-column-end: 4;
     width: 200px;}
 
+    
+{box-sizing: border-box;}
     /* The overlay effect - lays on top of the container and over the image */
 .overlay{
     position: absolute;
