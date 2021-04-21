@@ -26,4 +26,4 @@ header.demo {
 .img1{
    grid-row:2/3 ;
    grid-column: 1/2;
-   width: min-content;}
+   width: 200px;}
