@@ -3,10 +3,13 @@
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.google.com/share?selection.family=Alegreya)} 
-    style{
-    box-sizing: border-box}
-    .mySlides {display: none}
-    img {vertical-align: middle;}
+    
+    {box-sizing: border-box}
+
+    .mySlides{
+        display: none}
+    img {
+        vertical-align: middle;}
     
 .demo{
         color:rgb(47, 47, 47)}
