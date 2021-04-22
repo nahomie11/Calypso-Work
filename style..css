@@ -4,115 +4,74 @@
     font-weight: 400;
     src: url(https://fonts.google.com/share?selection.family=Alegreya)} 
     
-    {box-sizing: border-box}
-
-    .mySlides{
-        display: none}
-    img {
-        vertical-align: middle;}
-    
-.demo{
-        color:rgb(47, 47, 47)}
-
-.html{
-    background-color: rgb(227, 200, 241);}
-
-header.demo {
-    text-align: center;}
-
-text{
-    text-align: center;
-    font-size:20px;
-    font-family: 'Segoe Script';}
-
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 720px;
-      position: center;
-      margin: auto;
-    }
-    
-    .mySlides {
-      display: none;
-    }
    
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      margin-top: -22px;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-    }
-    
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
-    
-    
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
-    
+    .grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.7fr 1fr 1fr 1fr;
+        gap: 7px 7px;}
+      
+    header.demo {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 3;}
 
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-    
-    
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-    
-    .active, .dot:hover {
-      background-color: #717171;
-    }
-    
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-    
-    @-webkit-keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-    
-    @keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-    
+    h3{
+        font-family: 'Alegreya', serif ;
+        font-size: 35px;
+        font-style: normal;}
+      
+      
+      .img1{
+         grid-row:2/3;
+         grid-column-start: 1;
+         grid-column-end: 2;
+         width: 200px;}
+      
+      .img2{
+         grid-row:3/4;
+         grid-column-start: 1;
+         grid-column-end: 2;
+         width: 200px;}
+      
+      .img3{
+          grid-row:4/5;
+          grid-column-start: 1;
+          grid-column-end: 2;
+          width: 200px;}
+      
+      .img4{
+          grid-row:2/3;
+          grid-column-start: 2;
+          grid-column-end: 3;
+          width: 200px;}
+      
+      .img5{
+          grid-row:3/4;
+          grid-column-start: 2;
+          grid-column-end: 3;
+          width: 200px;}
+      
+      .img6{
+          grid-row:4/5;
+          grid-column-start: 2;
+          grid-column-end: 3;
+          width: 200px;}
+      
+      .img7{
+          grid-row:2/3;
+          grid-column-start: 3;
+          grid-column-end: 4;
+          width: 200px;}
+      
+      .img8{
+          grid-row:3/4;
+          grid-column-start: 3;
+          grid-column-end: 4;
+          width: 200px;}
+      
+      .img9{
+          grid-row:4/5;
+          grid-column-start: 3;
+          grid-column-end: 4;
+          width: 200px;}
