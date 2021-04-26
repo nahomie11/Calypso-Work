@@ -4,7 +4,6 @@
     font-weight: 400;
     src: url(https://fonts.google.com/share?selection.family=Alegreya)} 
     
-   
     html{
         background-color: rgb(227, 200, 241)}
 
@@ -34,7 +33,8 @@
       .img1{
          grid-row:2/3;
          grid-column-start: 1;
-         grid-column-end: 2;}
+         grid-column-end: 2;
+        ;}
       
       .img2{
          grid-row:3/4;

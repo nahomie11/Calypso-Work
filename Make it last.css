@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Alegreya', serif ;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.google.com/share?selection.family=Alegreya)}
+
+html{
+    background-color: rgb(51, 140, 143);}
+
+.demo{
+    color:rgb(47, 47, 47);}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.1fr 1fr 1fr;
+    grid-template-rows: 6 85px;}
+
+.header{
+   text-align: center;
+   font-size:50px;
+   font-family: 'Alegreya', serif;}
+
+.demo1{
+    background-color: rgb(249, 249, 230);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2/6;
+    grid-column: 1/3;
+    padding-top: 50px;
+    text-align: center;
+    font-size:25px;
+    font-family: 'Alegreya', serif;}
+
+h2{
+    background-color: rgb(246,244, 234);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row: 2/3;
+    grid-column: 4/6;
+    text-align: center;
+    font-size:22px;
+    font-family: 'Alegreya', serif;}
+
+h3{
+    background-color: rgb(226, 226, 212);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row: 3/4;
+    grid-column: 4/6;
+    text-align: center;
+    font-size:22px;
+    font-family: 'Alegreya', serif;}
+
+h4{
+    background-color: rgb(246,244, 234);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    text-align: center;
+    font-size:22px;
+    font-family: 'Alegreya', serif;
+    grid-row: 4/5;
+    grid-column: 4/6;}
+
+h5{
+    background-color: rgb(226, 226, 212);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    text-align: center;
+    font-size:22px;
+    font-family: 'Alegreya', serif;
+    grid-row: 5/6;
+    grid-column: 4/6;}
+
+
+
+
+    
