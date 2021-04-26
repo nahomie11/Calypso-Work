@@ -5,6 +5,9 @@
     src: url(https://fonts.google.com/share?selection.family=Alegreya)} 
     
    
+    html{
+        background-color: rgb(227, 200, 241)}
+        
     .grid{
         display:grid;
         grid-template-columns: 1fr 1fr;
