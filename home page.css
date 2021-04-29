@@ -7,6 +7,24 @@
 .demo{
     color:rgb(47, 47, 47)}
 
+.box1{
+    font-family: 'Alegreya', serif ;
+    text-align: center;
+    word-spacing: 25px;
+    font-size: 22px;}
+
+    a:link{
+        text-decoration: none;
+        color: lightgray;}
+    
+    a:visited{
+        text-decoration: none;
+        color: rgb(227, 200, 241);}
+
+    a:hover{
+        text-decoration: underline;
+        color:rgb(186, 209, 133)}
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
