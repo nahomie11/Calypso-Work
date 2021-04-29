@@ -12,10 +12,15 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 2 80px 1 100px;}
 
+p{
+    display: block;
+    margin: 0px;
+    padding-top: 22px;}
+
 .box1{
     font-family: 'Alegreya', serif ;
-    font-size: 18px;}
-
+    text-align: left;}
+    
 header.demo{
     background-color: rgb(227, 200, 241);
     grid-column-start: 1;
@@ -37,7 +42,7 @@ header.demo{
     grid-column-end:3;
     grid-row: 2/3;
     text-align: center;
-    font-size: 21px;
+    font-size: 23px;
     font-family: 'Alegreya', serif ;
     font-style: normal;}
 
