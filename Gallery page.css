@@ -7,70 +7,83 @@
     html{
         background-color: rgb(227, 200, 241)}
 
-    .grid{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.7fr 1fr 1fr 1fr;
-        gap: 7px 7px;}
-      
-    header.demo {
-        text-align:center;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        font-family: 'Segoe Script';
-        font-size: 50px;}
-
-    h3{
-        font-family: 'Alegreya', serif ;
-        font-size: 20px;
-        font-style: normal;}
+    body{
+        display:block;
+        margin: 0px;}
     
-    p{
-        font-family: 'Alegreya', serif ;
-        font-size: 15px;
-        font-style: normal;}     
-      
-      .img1{
-         grid-row:2/3;
-         grid-column-start: 1;
-         grid-column-end: 2;}
-         
-      .img2{
-         grid-row:3/4;
-         grid-column-start: 1;
-         grid-column-end: 2;}
-      
-      .img3{
-          grid-row:4/5;
-          grid-column-start: 1;
-          grid-column-end: 2;}
-      
-      .img4{
-          grid-row:2/3;
-          grid-column-start: 2;
-          grid-column-end: 3;}
-      
-      .img5{
-          grid-row:3/4;
-          grid-column-start: 2;
-          grid-column-end: 3;}
-      
-      .img6{
-          grid-row:4/5;
-          grid-column-start: 2;
-          grid-column-end: 3;}
-      
-      .img7{
-          grid-row:2/3;
-          grid-column-start: 3;
-          grid-column-end: 4;}
-      
-      .img8{
-          grid-row:3/4;
-          grid-column-start: 3;
-          grid-column-end: 4;}
-      
-      .img9{
-          grid-row:4/5;
-          grid-column-start: 3;
-          grid-column-end: 4;}
+        .grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 7px 7px;}
+          
+        header.demo {
+            text-align:center;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            font-family: 'Segoe Script';
+            font-size: 50px;}
+    
+        h3{
+            font-family: 'Alegreya', serif ;
+            font-size: 20px;
+            font-style: normal;}
+        
+        p{
+            font-family: 'Alegreya', serif ;
+            font-size: 15px;
+            font-style: normal;}     
+          
+          .img1{
+             grid-row-start:1;
+             grid-row-end: 2;
+             grid-column-start: 1;
+             grid-column-end: 2;}
+             
+          .img2{
+             grid-row-start:1;
+             grid-row-end: 2;
+             grid-column-start: 2;
+             grid-column-end: 3;}
+          
+          .img3{
+              grid-row-start: 1;
+              grid-row-end: 1;
+              grid-column-start: 1;
+              grid-column-end: 2;}
+          
+          .img4{
+              grid-row-start: 2;
+              grid-row-end: 3;
+              grid-column-start: 2;
+              grid-column-end: 3;}
+          
+          .img5{
+              grid-row-start: 2;
+              grid-row-end: 3;
+              grid-column-start: 2;
+              grid-column-end: 3;}
+          
+          .img6{
+              grid-row-start: 2;
+              grid-row-end: 3;
+              grid-column-start: 2;
+              grid-column-end: 3;}
+          
+          .img7{
+            grid-row-start: 3;
+            grid-row-end: 4;
+              grid-column-start: 3;
+              grid-column-end: 4;}
+          
+          .img8{
+            grid-row-start: 3;
+            grid-row-end: 4;
+              grid-column-start: 3;
+              grid-column-end: 4;}
+          
+          .img9{
+            grid-row-start: 3;
+            grid-row-end: 4;
+              grid-column-start: 3;
+              grid-column-end: 4;}
