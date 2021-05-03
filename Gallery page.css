@@ -6,6 +6,11 @@
     
     html{
         background-color: rgb(227, 200, 241)}
+    
+    .box{
+        font-family: 'Segoe Script';
+        font-size: medium;
+        text-align: center;}
 
     body{
         display:block;
@@ -14,7 +19,7 @@
         .grid{
             display:grid;
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr;
             gap: 7px 7px;}
           
         header.demo {
@@ -24,7 +29,7 @@
             font-family: 'Segoe Script';
             font-size: 50px;}
     
-        h3{
+        h1{
             font-family: 'Alegreya', serif ;
             font-size: 20px;
             font-style: normal;}
