@@ -9,8 +9,21 @@
     
     .box{
         font-family: 'Segoe Script';
-        font-size: medium;
-        text-align: center;}
+        font-size: 20px;
+        text-align: center;
+        word-spacing: 25px;}
+       
+        a:link{
+            text-decoration: none;
+            color: lightgray;}
+        
+        a:visited{
+            text-decoration: none;
+            color: rgb(51, 140, 143);}
+    
+        a:hover{
+            text-decoration: underline;
+            color:rgb(188, 87, 28)}
 
     body{
         display:block;

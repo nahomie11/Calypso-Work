@@ -10,6 +10,24 @@ html{
 .demo{
     color:rgb(47, 47, 47);}
 
+    .box{
+        font-family: 'Segoe Script';
+        font-size: 20px;
+        text-align: center;
+        word-spacing: 25px;}
+       
+        a:link{
+            text-decoration: none;
+            color: lightgray;}
+        
+        a:visited{
+            text-decoration: none;
+            color: rgb(227, 200, 241);}
+    
+        a:hover{
+            text-decoration: underline;
+            color:rgb(188, 87, 28)}
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 0.1fr 1fr 1fr;
