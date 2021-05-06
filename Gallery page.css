@@ -27,7 +27,8 @@
 
     body{
         display:block;
-        margin: 0px;}
+        margin: 0px;
+        padding-left: 45px;}
     
         .grid{
             display:grid;
