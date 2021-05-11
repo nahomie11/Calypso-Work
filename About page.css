@@ -63,7 +63,10 @@ header.demo{
     text-align: center;
     font-size: 23px;
     font-family: 'Alegreya', serif ;
-    font-style: normal;}
+    font-style: normal;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 30px;}
 
 .demo3{
     background-color: rgb(51, 140, 143);
